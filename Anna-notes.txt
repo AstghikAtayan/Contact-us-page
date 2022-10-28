@@ -1,0 +1,7 @@
+Is this code works for you? :)
+It is very important in case of errors debug code, it will help find out issues quickly
+I have added some comments in the code
+Also you did not use logging in your framework
+And please kee pages, testdata files, test files in separet folders. It make structure more readable
+
+Overall already closer to POM structure, a bit more practise, time and attention and everything will be ok!!!

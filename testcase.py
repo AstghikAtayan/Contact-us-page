@@ -22,8 +22,7 @@ WebDriverWait(browser, 15).until(EC.presence_of_element_located(
 contactpage.drop_down()
 contactpage.input_fields()
 
-expected_res = contactpage.my_result()
-
+expected_res = contactpage.my_result() #Anna - your my_result() function don't return anything, so result is none
 assert expected_res == mycredentials["error_message"], "Invalid output"
 
 helper.close_browser()
